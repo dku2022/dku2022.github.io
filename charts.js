@@ -99,8 +99,8 @@ d3.json("./students.json").then(function(studentsData) {
     .html({
       some:
         "<strong>%filter-count</strong> selected out of <strong>%total-count</strong> students" +
-        " | <a href='javascript:dc.filterAll(); dc.renderAll();'>Reset All</a>",
-      all: "All <strong>%total-count</strong> students"
+        " | <a href='javascript:dc.filterAll(); dc.renderAll();'>重置</a>",
+      all: "所有<strong>%total-count</strong>学生"
     });
 
   studentGrid
