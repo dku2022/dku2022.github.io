@@ -45,21 +45,21 @@
 <body>
     <div class="container-fluid m-1">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h2 class="h2">DKU Class of 2022 -- Domestic Student Demographics</h2>
+            <h2 class="h2">DKU Class of 2022 -- 国内学生分布</h2>
         </div>
 
         <div class="row m-1">
             <div class="card col-md-9">
                 <div id="province-chart" class="card-body dc-chart">
-                    <h5 class="card-title">Students by Province
-                        <a class="reset" href="javascript:provinceChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <h5 class="card-title">省份/直辖市
+                        <a class="reset" href="javascript:provinceChart.filterAll();dc.redrawAll();" style="display: none;">重置</a>
                     </h5>
                 </div>
             </div>
             <div class="card col-md-3">
                 <div id="gender-chart" class="card-body dc-chart">
-                    <h5 class="card-title">Students by Gender
-                        <a class="reset" href="javascript:genderChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <h5 class="card-title">性别
+                        <a class="reset" href="javascript:genderChart.filterAll();dc.redrawAll();" style="display: none;">重置</a>
                     </h5>
                 </div>
             </div>
@@ -68,8 +68,8 @@
         <div class="row m-1">
             <div class="card col-md-12">
                 <div id="city-chart" class="card-body dc-chart">
-                    <h5 class="card-title">Students by City
-                        <a class="reset" href="javascript:cityChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <h5 class="card-title">城市
+                        <a class="reset" href="javascript:cityChart.filterAll();dc.redrawAll();" style="display: none;">重置</a>
                     </h5>
                 </div>
             </div>
@@ -78,8 +78,8 @@
         <div class="row m-1">
             <div class="col-md-6 card">
                 <div id="school-chart" class="card-body dc-chart">
-                    <h5 class="card-title">Schools
-                        <a class="reset" href="javascript:schoolChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <h5 class="card-title">毕业中学
+                        <a class="reset" href="javascript:schoolChart.filterAll();dc.redrawAll();" style="display: none;">重置</a>
                     </h5>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                             selected out of
                             <span class="total-count"></span>
                             |
-                            <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                            <a href="javascript:dc.filterAll(); dc.renderAll();">重置</a>
                         </span>
                     </h5>
                     <div class="dc-data-grid">
